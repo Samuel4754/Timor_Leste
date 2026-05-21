@@ -6,15 +6,15 @@
 }
 
 body {
-    overflow-x: hidden; /* Garantia final contra deslizes */
+    overflow-x: hidden; 
 }
 
 header {
     position: relative;
     top: 0;
-    left: 225px; /* Alinhado com a largura da sua sidebar */
-    width: calc(100% - 225px); /* Ocupa apenas o que sobra */
-    height: 250px;
+    left: 14.0625em; 
+    width: calc(100% - 14.0625em); 
+    height: 15.625em;
     background-image: url(Imagens/Timor\ Leste.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -27,27 +27,27 @@ header {
 main {
     text-align: justify;
     position: relative;
-    margin: 10px;
-    left: 225px; 
-    width: calc(100% - 225px); /* Mesma lógica aqui */
+    margin: 0.625em;
+    left: 14.0625em;
+    width: calc(100% - 14.0625em); 
     background-color: #D4F5D3;
-    border-radius: 5px;
-    height: 100%; /* Garante que o main ocupe toda a altura da tela */
-    padding: 30px;
+    border-radius: 0.3125em;
+    height: 100%; 
+    padding: 1.875em;
 }
 
 aside {
     position: fixed;
     top: 0;
-    left: 0; /* Fixa na borda esquerda */
-    width: 225px;
-    height: 100vh; /* 100vh faz ela ocupar a altura toda da tela */
+    left: 0; 
+    width: 14.0625em;
+    height: 100vh; 
     background-color: #367534;
-    border-radius: 5px;
-    z-index: 10; /* Garante que ela fique por cima se necessário */
+    border-radius: 0.3125em;
+    z-index: 10; 
 }
 #degrade {
     background: linear-gradient(to right, #be00a5, #feca1f);
     background-size: auto;
-    font-size: 50px;
+    font-size: 3.125em;
 }
