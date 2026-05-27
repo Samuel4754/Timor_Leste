@@ -47,5 +47,11 @@ aside {
 #degrade {
 
     font-size: 1.314em;
-    
+    bottom: 0.55em;
+    position: absolute;
+    left: 1.875em;
+}
+
+#Click {
+    font-size: 1.314em;
 }
